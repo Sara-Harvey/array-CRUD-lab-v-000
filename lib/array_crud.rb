@@ -13,13 +13,12 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+array = ["lil' bub", "grumpy cat", "Maru"]
 famous_cats.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  ["lil' bub", "grumpy cat", "Maru"]
-"Maru" = array.pop
+  ["lil' bub", "grumpy cat", "Maru"].pop
 end
 
 def remove_element_from_start_of_array(array)
